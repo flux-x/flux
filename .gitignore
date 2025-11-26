@@ -1,0 +1,64 @@
+# Compiled artifacts
+target/
+debug/
+release/
+
+# Cargo package artifacts
+**/*.crate
+
+# Local Cargo config
+.cargo/
+
+# Rust analyzer / rustfmt temp files
+rustfmt-backup/
+.rustfmt.toml.bk
+
+# Build artifacts for build scripts
+build/
+
+*.log
+
+# IDE settings
+.idea/
+
+# User-specific JetBrains config
+*.iml
+out/
+
+# Temporary plugin files
+.idea_modules/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Linux
+*~
+
+# Vim / Emacs
+*.swp
+*.swo
+*.swn
+*.swm
+.#*
+
+# Docker
+docker-data/
+*.pid
+
+# Node/Yarn (rare in Rust, but keep if the project uses WebUI)
+node_modules/
+dist/
+
+# Cursor
+.cursorignore
+.cursorindexingignore
+
+# Ruff (for mixed Rust+Python repos)
+.ruff_cache/
